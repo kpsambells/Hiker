@@ -2,15 +2,17 @@
   "images" : [
     {
       "idiom" : "universal",
-      "filename" : "Hiker1.jpg",
+      "filename" : "Hiker1.png",
       "scale" : "1x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Hiker1-1.png",
       "scale" : "2x"
     },
     {
       "idiom" : "universal",
+      "filename" : "Hiker1-2.png",
       "scale" : "3x"
     }
   ],

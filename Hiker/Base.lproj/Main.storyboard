@@ -6,6 +6,7 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="11524"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
@@ -21,26 +22,27 @@
                         <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" misplaced="YES" image="Hiker1" translatesAutoresizingMaskIntoConstraints="NO" id="8BJ-b2-yTN">
-                                <rect key="frame" x="67" y="241" width="240" height="128"/>
-                                <constraints>
-                                    <constraint firstAttribute="width" constant="240" id="0rr-mJ-R48"/>
-                                    <constraint firstAttribute="height" constant="128" id="v9c-ce-Z6j"/>
-                                </constraints>
+                            <imageView contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="HikeSwipeBootPrintOrange" translatesAutoresizingMaskIntoConstraints="NO" id="5P2-9g-YgS">
+                                <rect key="frame" x="111" y="67" width="153" height="532"/>
                             </imageView>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
-                            <constraint firstItem="8BJ-b2-yTN" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="2k5-Po-fhh"/>
-                            <constraint firstItem="8BJ-b2-yTN" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="6w0-rb-Ymb"/>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="5P2-9g-YgS" secondAttribute="bottom" constant="68" id="91j-Uw-CfB"/>
+                            <constraint firstItem="5P2-9g-YgS" firstAttribute="top" secondItem="y3c-jy-aDJ" secondAttribute="bottom" constant="47" id="Pb8-hu-Bwn"/>
+                            <constraint firstItem="5P2-9g-YgS" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="SoP-Ft-XYa"/>
+                            <constraint firstItem="5P2-9g-YgS" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="U2D-SX-UH5"/>
+                            <constraint firstItem="5P2-9g-YgS" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="95" id="XLg-23-Bws"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="5P2-9g-YgS" secondAttribute="trailing" constant="95" id="uvd-X8-QDa"/>
                         </constraints>
                     </view>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
+            <point key="canvasLocation" x="39.200000000000003" y="42.728635682158924"/>
         </scene>
     </scenes>
     <resources>
-        <image name="Hiker1" width="2400" height="3000"/>
+        <image name="HikeSwipeBootPrintOrange" width="346" height="650"/>
     </resources>
 </document>
