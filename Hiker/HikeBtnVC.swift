@@ -8,10 +8,15 @@
 
 import UIKit
 
-class ViewController: UIViewController {
+class HikeBtnVC: UIViewController {
 
+    @IBOutlet weak var hikeBtn: UIImageView!
+    
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+    
+        
         
     }
  
