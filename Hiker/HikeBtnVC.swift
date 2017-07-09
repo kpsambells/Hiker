@@ -1,5 +1,5 @@
   //
-//  ViewController.swift
+//  HikeBtnVC.swift
 //  Hiker
 //
 //  Created by Secrets on 7/2/17.
